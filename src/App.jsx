@@ -14,7 +14,7 @@ const queryClient = new QueryClient({
     },
   },
 });
-// ignore this
+
 const App = () => {
   const adoptedPet = useState(null);
   return (
